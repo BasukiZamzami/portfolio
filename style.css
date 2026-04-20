@@ -13,18 +13,6 @@ body {
 }
 
 /* NAVBAR */
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #1f2a38;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    z-index: 1000;
-}
-
 .logo {
     color: white;
     font-size: 18px;
@@ -32,11 +20,22 @@ nav {
 }
 
 /* MENU DESKTOP */
+nav {
+    position: fixed;
+    width: 100%;
+    background: #1e272e;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 20px;
+}
+
+nav ul li {
+    margin: 0 20px;
 }
 
 nav ul li a {
