@@ -273,9 +273,13 @@ nav ul li a {
 @media (max-width: 768px) {
 
   /* NAVBAR JADI VERTIKAL */
-  .menu-toggle {
+    .menu-toggle {
+      display: none;
+    }
+    
+    .menu-toggle {
     display: block;
-  }
+    }
 
   nav ul {
     display: none;
