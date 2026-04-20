@@ -1,7 +1,16 @@
 // AMBIL SEMUA ELEMENT
 const elements = document.querySelectorAll('.fade-in');
-const toggle = document.getElementById("menu-toggle");
-const menu = document.getElementById("menu");
+
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu");
+
+  if (toggle && menu) {
+    toggle.addEventListener("click", function () {
+      menu.classList.toggle("active");
+    });
+  }
+});
 
 toggle.addEventListener("click", () => {
   menu.classList.toggle("active");
