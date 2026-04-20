@@ -110,6 +110,17 @@ nav ul li a:hover {
     text-align: center;
 }
 
+/* LIST */
+.bullet {
+    margin-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.angka {
+    text-align: left;
+}
+
 /* GRID */
 .grid {
     display: grid;
@@ -162,17 +173,6 @@ nav ul li a:hover {
 .html { width: 90%; }
 .css { width: 85%; }
 .js { width: 75%; }
-
-/* LIST */
-ul {
-    margin-top: 10px;
-    padding-left: 20px;
-    text-align: left;
-}
-
-ol {
-    text-align: left;
-}
 
 /* TABLE */
 .table-container {
