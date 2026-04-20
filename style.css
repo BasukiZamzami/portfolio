@@ -34,6 +34,7 @@ nav {
 /* MENU DESKTOP */
 nav ul {
     display: flex;
+    justify-content: center;
     list-style: none;
     gap: 20px;
 }
@@ -102,6 +103,11 @@ nav ul li a:hover {
 .section h2 {
     text-align: center;
     margin: 40px 0;
+}
+
+/* CENTER */
+.center {
+    text-align: center;
 }
 
 /* GRID */
